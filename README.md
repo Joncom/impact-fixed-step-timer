@@ -5,7 +5,7 @@ Modifies `ig.Timer` to add fixed step support to your ImpactJS games. This could
 
 ### Usage ###
 
-Require the plugin in your game, and then call `ig.Timer.useFixedStep()`. Your game now steps forward 0.016 seconds each frame.
+Require the plugin in your game, and then call `ig.Timer.useFixedStep()`. Your game now steps forward `0.016` seconds each frame.
 
 This assumes a device capable of simulating 60 FPS in order to appear to be running at 100% speed.
 
